@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruta 96 - Dotaciones Empresariales</title>
+    <link rel="stylesheet" href="styles.css">
+    <script></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="https://ruta96.com/">
+                <img src="imagenes/logo.png" alt="Ruta 96 logo">
+            </a>
+        </div>
+
+        <nav class="nav-principal">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="empresa.html">Empresa</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner hero">
+        <h1>Desde la salud hasta la industria, vestimos tu vocación con calidad y estilo.</h1>
+        <h2>Dotaciones Empresariales Profesionales</h2>
+        <p>Uniformes, calzado, estampados y más</p>
+    </section>
+
+    <section class="navegacion-secundaria nav-secundaria">
+        <nav>
+            <a href="#tienda">Tienda</a>
+            <a href="#quienes">Quiénes somos</a>
+            <a href="#industrias">Industrias</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#blog">Blog</a>
+            <a href="#envios">Guías de envío</a>
+        </nav>
+    </section>
+
+    <main>
+        <section class="testimonio" id="destacados">
+            <h2>Destacados</h2>
+        </section>
+
+        <div class="carousel-wrapper">
+            <button class="arrow left" id="leftGaleria">&#10094;</button>
+            <section class="galeria" id="galeria">
+                <img src="imagenes/1.jpeg" alt="Uniforme ejemplo 1" class="imagenes">
+                <img src="imagenes/2.jpeg" alt="Uniforme ejemplo 2" class="imagenes">
+                <img src="imagenes/3.jpeg" alt="Uniformes ejemplo 3" class="imagenes">
+                <img src="imagenes/4.jpeg" alt="Uniforme ejemplo 4" class="imagenes">
+                <img src="imagenes/5.jpeg" alt="Uniforme ejemplo 5" class="imagenes">
+            </section>
+            <button class="arrow right" id="rightGaleria">&#10095;</button>
+        </div>
+
+        <section class="section about" id="quienes">
+            <div>
+                <h2>Quiénes somos</h2>
+                <p>Somos Ruta 96, especialistas en fabricación de uniformes y dotaciones empresariales para compañías grandes, medianas y pequeñas.</p>
+            </div>
+            <div>
+                <h2>Misión y Visión</h2>
+                <p><strong>Misión:</strong> Brindar productos personalizados de alta calidad.<br>
+                <strong>Visión:</strong> Ser líderes nacionales en dotaciones.</p>
+            </div>
+        </section>
+
+        <section class="section services" id="tienda">
+            <div>
+                <h2>Productos</h2>
+                <ul>
+                    <li>Camisetas tipo polo y cuello redondo</li>
+                    <li>Camisas ejecutivas y en dril</li>
+                    <li>Conjuntos antifluido y chalecos</li>
+                    <li>Blujeans, botas y gorras</li>
+                    <li>Estampado y bordado personalizado</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section contact" id="contacto">
+            <div>
+                <h2>Contacto</h2>
+                <p>
+                    📍 Medellín, Antioquia - Barrio Buenos Aires<br>
+                    📞 <span class="telefono">Teléfono: 3234619002</span><br>
+                    ✉️ Correo: dotacionesruta96@gmail.com<br>
+                    📸 Instagram: @dotacionesruta96<br>
+                    🎥 TikTok: @dotacionesruta96
+                </p>
+            </div>
+            <div>
+                <h2>Formulario de contacto</h2>
+                <form class="contact-form" action="tu-script-de-envio.php" method="POST">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Opcional">
+
+                    <label for="mensaje">Mensaje / Consulta:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu mensaje..." required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Ruta 96 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
